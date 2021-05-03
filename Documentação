@@ -1,0 +1,18 @@
+Negocio : Medição de terrenos residenciais
+Problema/Oportunidade : Atualmente os responsaveis pelas obras fazem as medições das areas e perimetros de circunferencias e retangulos manualmente.
+Vocabulario: 
+Perimetro e Area de formas geometricas sendo Circunferencia e Retangulos
+Area do Circunferencia sendo calculado por (PI.Raio^2) o Perimetro da mesma forma é calculado por (2.PI.R)
+Area do Retangulo e perimetro , respectivamente, sendo calculado como (Base . Altura e 2.(Base + Altura))
+Sendo PI considerado como seu valor numerico simples ou 3,14
+Objetivo:
+Programa capaz de resolver tais equaçoes de forma otimizada e capaz de lembrar valor de PI automaticamente
+Regras de Negocio:
+Seu valor deve ser preciso
+Não pode ser dependente de ação humana para realizar a conta
+Stakeholders:
+Cliente
+Arquiteto
+Requisitos:
+Deve ser capaz de ofercer a distinção entre as formas
+
