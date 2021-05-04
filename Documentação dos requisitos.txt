@@ -1,2 +1,45 @@
 Documentação de requisitos:
-Negocio: Medição de terrenos residenciais
+
+Negocio: Construção de residencias
+=========================================
+
+Problema/Oportunidade:
+-Atualmente os responsaveis pelas obras fazem as medições das areas e perimetros de circunferencias e retangulos manualmente.
+Por que não fazer atravez de um sistema?
+-Pois o sistema atual não possui tal funcionalidade.
+Por que o sitema não possui essa funcionalidade?
+-Empresa precisa de uma biblioteca simples que permita o calculo da área e perímetro de circunferências e retângulos.
+Por que não utilizar uma biblioteca ou programa ja existente?
+-Pois a empresa precisa de uma que tenha as entradas e saídas especificas para integração com o sistema atual.
+=========================================
+
+Atividades do negócio:
+-Medir terrenos variados.
+-Realizar a construção de residencias.
+=========================================
+
+Regras de negócio:
+-RN0001: Perímetro de uma circunferência:
+	O perímetro de uma circunferência é definido por: 2.PI.R
+-RN0002: Área de uma circunferência:
+	A área de uma circunferência é definida por: PI.R^2
+-RN0003: Perímetro de um retângulo:
+	O perímetro de um retângulo é definido por: 2.(BASE+ALTURA)
+-RN0004: Área de um retângulo:
+	A área de um retângulo é definido por: BASE.ALTURA
+=========================================
+
+StakeHolders:
+-Clientes
+-Arquitetos
+-Dono da Empresa
+-Equipe de desenvolvimento
+=========================================
+
+Requisitos:
+-Deve ser capaz de ofercer a distinção entre as formas
+-Deve possuir interface grafica
+-Deve ser simples de usar
+-As saídas do programa devem ser retornadas em double
+
+
