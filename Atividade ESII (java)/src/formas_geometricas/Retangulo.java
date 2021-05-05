@@ -13,6 +13,7 @@ public class Retangulo {
     void calculaRetangulo(){
         area = base * altura;
         perimetro = (base + altura)*2;
+        ShowResult();
     }
     public float getArea(){
         return area;
@@ -33,5 +34,8 @@ public class Retangulo {
     public void setAltura(float altura){
         this.altura = altura;
         calculaRetangulo();
+    }
+    public void ShowResult (){
+        System.out.println("Area do Retangulo: " + area + "\nPerimetro do Reatangulo: " + perimetro);
     }
 }
